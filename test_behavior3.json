@@ -1,0 +1,215 @@
+{
+  "version": "0.2.0",
+  "scope": "tree",
+  "id": "766e1c65-ba85-48cf-827e-1147d546f7ad",
+  "title": "A behavior tree",
+  "description": "",
+  "root": "12517502-b719-4cad-82a9-4769feda7f13",
+  "properties": {},
+  "nodes": {
+    "52d9a0f8-6ab1-456d-8f3f-a8a099588eab": {
+      "id": "52d9a0f8-6ab1-456d-8f3f-a8a099588eab",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 12,
+        "y": -48
+      },
+      "children": [
+        "ff473462-29ca-45f8-81d4-e6692fc56ddd",
+        "9418079b-e363-49e4-8918-25af384c944b",
+        "70ca26c6-7c72-440c-9c15-df61154fd859",
+        "ec181cf7-73a0-40eb-8783-aa097efbfd58"
+      ]
+    },
+    "ff473462-29ca-45f8-81d4-e6692fc56ddd": {
+      "id": "ff473462-29ca-45f8-81d4-e6692fc56ddd",
+      "name": "testAction",
+      "title": "测试action",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 216,
+        "y": -180
+      }
+    },
+    "9418079b-e363-49e4-8918-25af384c944b": {
+      "id": "9418079b-e363-49e4-8918-25af384c944b",
+      "name": "testAction",
+      "title": "测试action",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 216,
+        "y": -60
+      }
+    },
+    "70ca26c6-7c72-440c-9c15-df61154fd859": {
+      "id": "70ca26c6-7c72-440c-9c15-df61154fd859",
+      "name": "testAction",
+      "title": "测试action",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 216,
+        "y": 48
+      }
+    },
+    "ec181cf7-73a0-40eb-8783-aa097efbfd58": {
+      "id": "ec181cf7-73a0-40eb-8783-aa097efbfd58",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 156,
+        "y": 156
+      },
+      "children": [
+        "46c84161-af98-44d4-8e1b-38a48c5b8526",
+        "9350e6de-8674-4e74-bf2d-74f0fc1223cf"
+      ]
+    },
+    "46c84161-af98-44d4-8e1b-38a48c5b8526": {
+      "id": "46c84161-af98-44d4-8e1b-38a48c5b8526",
+      "name": "testAction",
+      "title": "测试action",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 324,
+        "y": 108
+      }
+    },
+    "9350e6de-8674-4e74-bf2d-74f0fc1223cf": {
+      "id": "9350e6de-8674-4e74-bf2d-74f0fc1223cf",
+      "name": "MemSequence",
+      "title": "MemSequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 288,
+        "y": 216
+      },
+      "children": [
+        "5f67235e-ccff-4754-8fb4-05bd5971f868",
+        "a9782809-ca1c-40ea-87ff-703ac2142e61"
+      ]
+    },
+    "5f67235e-ccff-4754-8fb4-05bd5971f868": {
+      "id": "5f67235e-ccff-4754-8fb4-05bd5971f868",
+      "name": "testAction",
+      "title": "测试action",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 504,
+        "y": 180
+      }
+    },
+    "a9782809-ca1c-40ea-87ff-703ac2142e61": {
+      "id": "a9782809-ca1c-40ea-87ff-703ac2142e61",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 408,
+        "y": 288
+      },
+      "children": [
+        "68e415ce-222f-469b-852a-5093261b94ae",
+        "fcbcca90-5f58-43ea-8c16-c904a7255d43"
+      ]
+    },
+    "68e415ce-222f-469b-852a-5093261b94ae": {
+      "id": "68e415ce-222f-469b-852a-5093261b94ae",
+      "name": "testAction",
+      "title": "测试action",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 600,
+        "y": 252
+      }
+    },
+    "fcbcca90-5f58-43ea-8c16-c904a7255d43": {
+      "id": "fcbcca90-5f58-43ea-8c16-c904a7255d43",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 528,
+        "y": 360
+      },
+      "children": [
+        "a961374d-0c81-44a3-a7d2-06496fb4f4d2",
+        "f2e4fc90-f6a3-47df-a119-ee5a672322e4"
+      ]
+    },
+    "a961374d-0c81-44a3-a7d2-06496fb4f4d2": {
+      "id": "a961374d-0c81-44a3-a7d2-06496fb4f4d2",
+      "name": "testAction",
+      "title": "测试action",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 720,
+        "y": 336
+      }
+    },
+    "f2e4fc90-f6a3-47df-a119-ee5a672322e4": {
+      "id": "f2e4fc90-f6a3-47df-a119-ee5a672322e4",
+      "name": "testAction",
+      "title": "测试action",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 732,
+        "y": 444
+      }
+    },
+    "12517502-b719-4cad-82a9-4769feda7f13": {
+      "id": "12517502-b719-4cad-82a9-4769feda7f13",
+      "name": "testDecorator",
+      "title": "测试testDecorator",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -168,
+        "y": -48
+      },
+      "child": "52d9a0f8-6ab1-456d-8f3f-a8a099588eab"
+    }
+  },
+  "display": {
+    "camera_x": 602.8989999648184,
+    "camera_y": 481.8580002337694,
+    "camera_z": 1,
+    "x": -324,
+    "y": -48
+  },
+  "custom_nodes": [
+    {
+      "version": "0.2.0",
+      "scope": "node",
+      "name": "testAction",
+      "category": "action",
+      "title": "测试action",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.2.0",
+      "scope": "node",
+      "name": "testDecorator",
+      "category": "decorator",
+      "title": "测试testDecorator",
+      "description": null,
+      "properties": {}
+    }
+  ]
+}
